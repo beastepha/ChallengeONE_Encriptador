@@ -1,0 +1,147 @@
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.principal {
+    background: #E5E5E5;
+    height: 100vh;
+}
+
+.logo {
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+.dark {
+    display: inline-block;
+    cursor: pointer;
+    background: #E5E5E5;
+    font-size: 22px;
+    height: 50px;
+    width: 70px;
+    border: none;
+    margin-left: 30px;
+}
+
+.light {
+    color: white;
+    background: black;
+    font-size: 22px;
+    height: 50px;
+    width: 70px;
+    border: none;
+    margin-left: 30px;
+    display: none;
+}
+
+.input-padrao {
+    font-size: 42px;
+    position: absolute;
+    width: 700px;
+    height: 350px;
+    left: 140px;
+    top: 100px;
+    color: #0A3871;
+    background: #E5E5E5;
+    border: none;
+}
+
+.input-padrao::placeholder {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 150%;
+    color: #0A3871;
+}
+
+.principal-segundario {
+    background:  #FFFFFF;
+    float: right;
+    height: 90vh;
+    width: 350px;
+    margin-top: 35px;
+    margin-right: 50px;
+    border-radius: 32px;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+}
+
+.img {
+text-align: center;
+margin-top: 35%;
+display: block;
+}
+
+.img img {
+    width: 70%;
+}
+
+#texto {
+    background: white;
+    color: #0A3871;
+    font-size: 25px;
+    padding: 10px;
+    word-wrap: break-word;
+    overflow: overlay;
+    width: 300px;
+    height: 80vh;
+    margin-left: 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+    display: none;
+}
+
+h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 120%;
+    text-align: center;
+    color: #343A40;
+    display: block;
+}
+
+h4 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #495057;
+    display: block;}
+
+.botoes {
+    position: absolute;
+    bottom: 40px;
+    left: 650px;
+}
+
+.estilo-botao {
+	background-color:#357e94;
+	border-radius:28px;
+	border: none;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:12px 25px;
+	text-decoration:none;
+    margin-right:30px;
+}
+.estilo-botao:hover {
+	background-color:#000000;
+}
+.estilo-botao:active {
+	position:relative;
+	top:1px;
+}
+
+.botao1 {
+    margin-right: 20px;
+}
